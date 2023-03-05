@@ -235,7 +235,7 @@ header {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     header {
         height: 400px;
     }
@@ -280,6 +280,7 @@ header {
     }
 
     
+
     .section-3-img img {
         width: 300PX;
     }
@@ -298,8 +299,9 @@ header {
         
     }
 
+
    
-    @media screen and (max-width: 430px) {
+    @media screen and (max-width: 540px) {
         .nav {
             font-size: 0.8em;
             justify-content: center;
@@ -366,6 +368,7 @@ header {
             flex-direction: column;
             width: auto;
             align-items: start;
+            width: 100%;
         }
         .section-3-content p{
         padding: 0px 70px;
